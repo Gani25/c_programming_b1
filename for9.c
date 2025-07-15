@@ -29,3 +29,8 @@ even = 2 + 4 + 6 + 8 + 10 = 30
 // Even sum from 1 to 10 is 30
 // Odd sum from 1 to 10 is 25
 */
+
+/*
+WAP to print fibonacci series till 10
+0 1
+*/
