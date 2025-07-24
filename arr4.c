@@ -19,10 +19,3 @@ int main()
     }
     printf("Addition of elements present in array is: %d\n", sum);
 }
-
-/*
-1. WAP to accept element in array of size 5 and print that array
-
-2. WAP to display even and odd elements sum of a given array
-{5,9,6,4,2,1,3,7,8,10}
-*/
