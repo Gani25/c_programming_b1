@@ -24,3 +24,7 @@ int main()
     printf("Sum of odd element present in array is %d\n", oddSum);
     printf("Sum of even element present in array is %d\n", evenSum);
 }
+/*
+1. Find maximum and minimum element from given array
+{20,80,-5,10,3,6,-25,100,-30}
+*/

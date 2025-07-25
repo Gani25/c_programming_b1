@@ -21,3 +21,7 @@ int main()
         printf("%d\t", arr[i]);
     }
 }
+
+// {2,5,10,-5,6} -> reverse output
+// {6,-5,10,5,2}
+// print
