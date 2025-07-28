@@ -27,11 +27,3 @@ int main()
     printf("Maximum element is: %d\n", max);
     printf("Minimum element is: %d\n", min);
 }
-/*
-1. WAP to create 2 seperate array (odd element, even element) from a given array
-{5,9,8,2,6,1,3}
-
--- Output
-// oddArr = {5,9,1,3}
-// evenArr = {8,2,6}
-*/

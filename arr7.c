@@ -14,10 +14,10 @@ int main()
     {
         printf("%d\t", arr[i]);
     }
+    // Reverse logic
     i = 0;
     int j = len - 1;
 
-    // Reverse logic
     while (i < j)
     {
         int temp = arr[i];
