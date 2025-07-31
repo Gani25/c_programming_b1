@@ -24,6 +24,9 @@ int main()
     b. only divisible by 3
     c. only divisible by 5
     d. not divisible by any
+    // Variable = 1, Conditions = 4
+    // Ex1 input = 15 divisible by 3 and 5
+    // Ex2 input = 12 divisble by 3
 
 2. WAP to accept marks of 5 subject and calculate sum and percentage
     based on percentage  display grades
