@@ -26,5 +26,3 @@ int main()
         printf("\n");
     }
 }
-
-// QS. WAP to accpt input in matrix of size 5 * 2 and display matrix and sum
