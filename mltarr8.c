@@ -1,6 +1,6 @@
-// WAP to accept size and element in 2d matrix from user
-// display matrix and then display their transpose
-// 1. Print transpose for uneven matrix
+// 2. WAP to accept row and col size and element from user in matrix
+// Display matrix and then show diagonal (primary, secondary)
+// if that matrix is square matrix
 
 #include <stdio.h>
 int main()
@@ -41,14 +41,30 @@ int main()
         }
         printf("\n");
     }
-    printf("Transpose of a matrix of size %d * %d = \n", row, col);
-    for (i = 0; i < col; i++)
+    if (row == col)
     {
-        // column
-        for (j = 0; j < row; j++)
+
+        printf("Diagonal of a matrix of size %d * %d = \n", row, col);
+        for (i = 0; i < row; i++)
         {
-            printf("%d\t", arr[j][i]);
+            // column
+            for (j = 0; j < col; j++)
+            {
+                if (i == j || i + j == row - 1)
+                {
+                    printf("%d\t", arr[j][i]);
+                }
+                else
+                {
+
+                    printf(" \t", arr[j][i]);
+                }
+            }
+            printf("\n");
         }
-        printf("\n");
+    }
+    else
+    {
+        printf("Since row = %d and col = %d is not same so cannot display diagonal of rectangle\n", row, col);
     }
 }
