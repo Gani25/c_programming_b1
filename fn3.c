@@ -1,12 +1,24 @@
 // WAP to add 2 numbers in function and then perform multiplication of same number using function
 #include <stdio.h>
 
+void power(int a, int b)
+{
+    printf("I am Power Function\n");
+    int result = 1;
+    for (int i = 1; i <= b; i++)
+    {
+        result = result * a;
+    }
+    printf("%d raise to %d = %d\n", a, b, result);
+}
 // Function definition
 void multiplication(int a, int b)
 {
     printf("I am Multiplication Function\n");
     int result = a * b;
     printf("Multiplication of %d, %d = %d\n", a, b, result);
+
+    power(a, b);
 }
 // without return type - void, without parameters (empty)
 // function definition {}
