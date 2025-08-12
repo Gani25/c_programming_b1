@@ -14,4 +14,6 @@ int main()
     int x = -999;
     ptr = &x;
     printf("Value of x using pointer = %d\n", *ptr);
+    *ptr = 12;
+    printf("Value of x using pointer after modification = %d\n", *ptr);
 }
