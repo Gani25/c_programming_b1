@@ -21,8 +21,3 @@ int main()
     printf("Age is %d\n", age);
     printf("Gender is %s\n", gender);
 }
-
-/*
-1. WAP to accept full name of student, branch = (IT engineering,Mech engin ) then marks of 5 subject
-    display name and marks and total marks and average
- */
