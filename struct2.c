@@ -6,10 +6,10 @@ typedef struct student_structure
 {
     // Collection of Fields
     // structure have combinations of variable declarations
-    int rollNo;
-    char name[50];
-    int age;
-    char gender[10];
+    int rollNo;      // 4byte
+    char name[50];   // 50 byte
+    int age;         // 4 byte
+    char gender[10]; // 10 byte
 } student;
 
 // Array of structure
