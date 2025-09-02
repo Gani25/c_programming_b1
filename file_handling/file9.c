@@ -62,6 +62,7 @@ int main()
             printf("Salary = %d\n", e1.salary);
         }
     }
+    fclose(fptr);
 }
 
 // Delete emp By Id
